@@ -12,6 +12,7 @@ class RAGSystem:
         # but we can also pass it explicitly if needed.
         self.client = OpenAI()
         self.db = VECTOR_STORE
+        self.last_error = None
 
     def get_embedding(self, text):
         response = self.client.embeddings.create(
@@ -54,15 +55,20 @@ class RAGSystem:
                 self.db.append({"text": chunk, "embedding": embedding})
             
             print("Ingestion complete.")
+            self.last_error = None
             return True
         except Exception as e:
             import traceback
             traceback.print_exc()
+            self.last_error = f"{type(e).__name__}: {str(e)}"
             print(f"Error during ingestion: {e}")
             return False
 
     def query(self, query_text):
         if not self.db:
+            error_msg = getattr(self, 'last_error', None)
+            if error_msg:
+                return f"⚠️ SYSTEMFEL: Kunde inte läsa in manualen. \nFelmeddelande: {error_msg}\n\nKontrollera din API-nyckel på Render."
             return "Systemet har inte läst in manualen ännu. Ladda upp manual.txt först."
         
         try:
