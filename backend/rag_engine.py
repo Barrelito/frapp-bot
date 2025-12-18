@@ -56,6 +56,8 @@ class RAGSystem:
             print("Ingestion complete.")
             return True
         except Exception as e:
+            import traceback
+            traceback.print_exc()
             print(f"Error during ingestion: {e}")
             return False
 
