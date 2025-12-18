@@ -1,0 +1,66 @@
+SAFE/ Amphi tar ej laddning
+Datorns bottenkontakt är trasig. 
+Nödlösning är att byta batteri med SAFE mellan uppdragen för att ha ett fräscht batteri men enheten behöver planeras in till VLT och ärende ska läggas i Tellus enligt rutin.
+Alternativt kan man enbart behöva byta ett defekt batteri men det märker man om man byter mellan plattorna om det inte laddar i den andra datorn heller.
+Ibland börjar plattorna ladda bara man tar ut och sätter i batteriet när man byter emellan plattorna, oklart varför men det funkar i vissa fall.
+Fläkten på Safe/ Amphi låter illa
+Behöver bokas in på VLT för byte, ärenden ska läggas i Tellus innan. 
+Safe tappar gps/ visar ingen karta/ ärenden kommer inte över från Safe till Amphi. 
+Starta om Safe och Amphi. Om detta inte löser problemet, ta kontakt med Kristofer Brusdal som kan kontrollera status på router. Undvik att dra säkring till routern eller stänga av huvudströmmen då det ofta ger långvariga problem med routern.
+Ej inloggad TNA/ MSISDN visas på safe
+Detta är relaterat till Rakel. Kontakta RAKEL-jour
+Safe saknar alla sina destinationer, syns bara en vit ruta. 
+Händer när en enhet fått ny Safe men man inte har startat om Amphi efter det. Starta om Amphi så löses problemet.
+Ärende kommer inte upp på vare sig Safe eller Amphi.
+Ärende kommer till Rakels handenhet. Efter detta kan eget ärende skapas från Amphi där man knappar in aktuellt ärendenummer, den information som kan hämtas hämtas och man kan skriva journal som vanligt. Detta blir ju en nödlösning och något är ju fel och bilen behöver ses över. Kontakta Kristofer Brusdal som tillsammans med leverantör bedömer om saker kan åtgärdas på distans eller behöver tas på VLT.
+Inloggningsproblem
+Kontrollera kortläsare, blinkar grön lampa? Om inte så börja med att ta loss och sätta tillbaka plattan i hållaren, då vaknar kontakten ibland. Alternativt testa med en annan kortläsare om det finns någon tillgänglig. Om det inte fungerar kan kortläsarens kontakt klippas fram (sitter med svart slang kring själva USB kontakten, sätt in kontakten direkt i Amphiskärmen och prova logga in. Funkar det vet man att bilen måste planeras till VLT och ärende ska läggas i Tellus innan (Se rutin för att lägga ärenden i Tellus)
+Nödinlogg kan användas men är extremt svårjobbat för personalen så även om det kan användas som en tillfällig lösning så försök tillse att bilarna kommer till VLT i stället.
+
+
+
+Tangentbord/ Touchfunktion/ konstiga tecken på skärmen 
+Stäng av externt tangentbord, Stäng av Amphi, sprita av skärmen och starta sedan upp skärmen igen, testa med det inbyggda tangentbordet innan man sätter på det externa för att se var felet i sådana fall ligger.
+Ruta på Amphi som säger ”Avvaktar nedladdning av basdata.” Se till att vara utomhus, om det inte försvinner inom några min, starta om Amphi igen (utomhus). Fungerar inte detta kontaktas Kristofer Brusdal i teamschatt alternativt telefon om brådskande.
+ 
+EKG och eller mätvärden förs inte över till Amphi. 
+Följ tidigare rutin i mall för att byta macadress och tömma CF kort. Om detta inte fungerar kontaktas Kristofer Brusdal i teamschatt alt telefon om brådskande. Överföring sker via bluetooth och har inget med uppkoppling till router att göra.
+Bilder på frisk Safe och frisk Amphi 
+
+ 
+
+
+
+
+
+
+Varningstriangel och bollar på amphi
+Om röd varningstriangel syns på Safe så klicka på den och kontrollera att Rakel och Amphi är gröna (Amphi är också röd innan man loggat in) Är man inloggad och den är röd saknas koppling mellan datorerna och då är också den första bollen i högra hörnet på Amphi röd.
+Om den andra bollen på Amphi är röd alt gul finns det problem med uppkopplingen till Amphis server. Kontrollera då att inte fler bilar har samma sak vilket indikerar större problem i regionen.
+Den sista bollen M är grön när Corpuls är på och korrekt uppkopplad till amphi.
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Rutin för felanmälan i Tellus
+Innan kontakt tas med Micke på VLT på tel 08-7490100 för att boka in en bil på service ska ärende vara lagt i Tellus. VLT har begränsade möjligheter att ta emot spontanbesök under sommaren så detta måste följas.
+Ärende läggs genom att gå in på Kontaktformulär (tellus.regionstockholm.se), fyll i dina uppgifter men också att du anmäler åt någon annan (se bild) Fyll sedan i aktuellt registreringsnummer på bilen samt beskriv vad som är problemet.
+Uppstår akuta problem såsom serverstörningar eller sådant som berör hela regionen ringer man in ärendet.
+
+
+ 
+Rutin för Fordonskontroll
+Se till att alla ärenden läggs i Fordonskontroll och gör en notering i ärendet om den skickas till VLT och stäng sedan felrapporten i Fordonskontroll. De ärenden som ligger i fordonskontroll är det underlag som används gentemot leverantör mfl för att belysa vidden av de fel vi har. Många besättningar är väldigt duktiga på detta och lägger också in när de löst felen själva viket ger ett bra underlag.
+
+Kristofer Brusdal jobbar enbart halvtid med detta under sommaren och har ingen jour eller beredskap. Använd den vanliga teamschatten som han är med i men svarar han inte får man avvakta och lösa saker med bilbyten eller liknande om det är på obekväm tid.
+Ni når honom på 08-123 122 63
